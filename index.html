@@ -1,18 +1,131 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>eye-vision-landing</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-    <meta property="og:image" content="/og-image.png" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VisionTrack - Eye Tracking Technology</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="logo.png" alt="VisionTrack Logo" class="logo-image">
+        <span>VisionTrack</span>
+      </a>
+      
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#use-cases">Use Cases</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#blog">Blog</a>
+      </nav>
+      
+      <div class="auth-buttons">
+        <button class="btn btn-ghost">Sign In</button>
+        <button class="btn btn-primary">Try for Free</button>
+      </div>
+      
+      <button class="mobile-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-background"></div>
+      
+      <div class="container">
+        <div class="hero-content">
+          <div class="badge">
+            <img src="logo.png" alt="Logo" class="badge-logo">
+            <span>Next Generation Eye Tracking</span>
+          </div>
+          
+          <h1>Unlock the Power of <span class="gradient-text">Visual&nbsp;Intelligence</span></h1>
+          
+          <p>Our precision eye tracking technology revolutionizes how humans interact with devices, creating more intuitive, accessible, and productive digital experiences.</p>
+          
+          <div class="cta-buttons">
+            <button class="btn btn-primary">Get Early Access</button>
+            <button class="btn btn-outline">Watch Demo</button>
+          </div>
+          
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-value">99.8%</span>
+              <span class="stat-label">Accuracy</span>
+            </div>
+            <div class="divider"></div>
+            <div class="stat">
+              <span class="stat-value">&lt;10ms</span>
+              <span class="stat-label">Latency</span>
+            </div>
+            <div class="divider"></div>
+            <div class="stat">
+              <span class="stat-value">5x</span>
+              <span class="stat-label">More Efficient</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero-image">
+          <div class="orbit">
+            <div class="logo-container">
+              <img src="logo.png" alt="Eye Logo" class="hero-logo">
+            </div>
+            <div class="floating-icon icon-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mouse-pointer"><path d="m3 3 7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/></svg>
+            </div>
+            <div class="floating-icon icon-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-gradient-bottom"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <h2 class="section-title">Advanced <span class="gradient-text">Features</span></h2>
+      
+      <div class="features-grid">
+        <!-- Feature cards would go here -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          </div>
+          <h3>Precision Tracking</h3>
+          <p>Track eye movements with sub-millimeter accuracy, enabling precise cursor control and interaction.</p>
+        </div>
+        
+        <!-- More feature cards would be added here -->
+      </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section id="use-cases" class="use-cases">
+      <!-- Use cases content would go here -->
+    </section>
+
+    <!-- Early Access Section -->
+    <section class="early-access">
+      <!-- Early access content would go here -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <!-- Footer content would go here -->
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
