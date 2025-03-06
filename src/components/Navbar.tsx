@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Eye } from 'lucide-react';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -33,7 +32,11 @@ const Navbar = () => {
           href="#" 
           className="flex items-center space-x-2 font-medium text-lg transition-opacity duration-300 hover:opacity-80"
         >
-          <Eye className="h-6 w-6 text-eye-blue animate-pulse-glow" />
+          <img 
+            src="/lovable-uploads/7bb49070-62a5-4a46-acdd-d6369b3b0ea1.png" 
+            alt="VisionTrack Logo" 
+            className="h-8 w-8"
+          />
           <span className="font-semibold">VisionTrack</span>
         </a>
         
@@ -42,10 +45,10 @@ const Navbar = () => {
             <a
               key={item}
               href={`#${item.toLowerCase().replace(' ', '-')}`}
-              className="text-sm font-medium text-foreground/80 transition-all duration-300 hover:text-eye-blue relative group"
+              className="text-sm font-medium text-foreground/80 transition-all duration-300 hover:text-eye-teal relative group"
             >
               {item}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-eye-blue transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-eye-teal transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
         </nav>
@@ -58,7 +61,7 @@ const Navbar = () => {
             Sign In
           </Button>
           <Button 
-            className="bg-eye-blue hover:bg-eye-blue/90 text-white shadow-md hover:shadow-xl transition-all duration-300"
+            className="bg-eye-teal hover:bg-eye-teal/90 text-eye-black shadow-md hover:shadow-xl transition-all duration-300"
           >
             Try for Free
           </Button>

@@ -16,16 +16,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 210 100% 58%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 166 80% 65%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 210 100% 58%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 166 80% 65%;
+    --secondary-foreground: 0 0% 0%;
 
-    --muted: 210 40% 96%;
+    --muted: 166 40% 96%;
     --muted-foreground: 217 15% 53%;
 
-    --accent: 210 40% 96%;
+    --accent: 166 40% 96%;
     --accent-foreground: 222 47% 11%;
 
     --destructive: 0 84% 60%;
@@ -57,8 +57,8 @@
     --popover: 222 47% 11%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 100% 58%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 166 80% 65%;
+    --primary-foreground: 0 0% 0%;
 
     --secondary: 217 33% 18%;
     --secondary-foreground: 210 40% 98%;
@@ -91,7 +91,7 @@
 
 @layer components {
   .blue-glow {
-    box-shadow: 0 0 30px rgba(45, 127, 249, 0.2);
+    box-shadow: 0 0 30px rgba(94, 235, 211, 0.2);
   }
   
   .glass-card {
@@ -99,7 +99,7 @@
   }
   
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-eye-blue to-eye-light-blue;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-eye-teal to-eye-light-teal;
   }
   
   .btn-hover-effect {
@@ -107,7 +107,7 @@
   }
   
   .btn-hover-effect:after {
-    @apply absolute inset-0 scale-x-0 origin-bottom-left transition-transform duration-300 ease-out bg-eye-blue/10 content-[''];
+    @apply absolute inset-0 scale-x-0 origin-bottom-left transition-transform duration-300 ease-out bg-eye-teal/10 content-[''];
   }
   
   .btn-hover-effect:hover:after {
@@ -156,8 +156,8 @@
 }
 
 .ring-glow {
-  box-shadow: 0 0 15px rgba(138, 188, 255, 0.5), 
-              0 0 30px rgba(45, 127, 249, 0.3), 
+  box-shadow: 0 0 15px rgba(160, 242, 227, 0.5), 
+              0 0 30px rgba(94, 235, 211, 0.3), 
               inset 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
@@ -167,7 +167,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(138, 188, 255, 0.1) 0%, rgba(255, 255, 255, 0) 50%);
+  background: radial-gradient(circle at 50% 50%, rgba(160, 242, 227, 0.1) 0%, rgba(255, 255, 255, 0) 50%);
   z-index: -1;
 }
 

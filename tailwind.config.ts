@@ -67,8 +67,9 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				eye: {
-					blue: '#2D7FF9',
-					'light-blue': '#8ABCFF',
+					teal: '#5EEBD3', 
+					'light-teal': '#A0F2E3',
+					black: '#000000',
 					gray: '#F5F7FA',
 					'dark-gray': '#2A2C32',
 				}
